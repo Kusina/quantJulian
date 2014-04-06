@@ -1,0 +1,48 @@
+Last login: Sat Mar 15 13:56:25 on ttys000
+JulianAir:~ Spada$ echo "hellow world"
+hellow world
+JulianAir:~ Spada$ First="$1"
+JulianAir:~ Spada$ First
+-bash: First: command not found
+JulianAir:~ Spada$ echo "helow $First"
+helow 
+JulianAir:~ Spada$ cd desktop/test
+JulianAir:test Spada$ ls
+a.out		make		test.o
+main.makefile	test.cpp	test1.cpp
+JulianAir:test Spada$ emacs shelltest.sh
+
+
+
+
+
+
+
+
+
+
+
+#!/bin/sh                                                                       
+
+FIRST_ARGUMENT = "$1"
+echo "Hellow, world $FIRSTS_ARGUMENT!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-uuu:**-F1  shelltest.sh   All L5     (Shell-script[sh])------------------------
+

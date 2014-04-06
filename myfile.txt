@@ -1,0 +1,24 @@
+assignment3
+1. download a 10y time series of the tsx 300 ( ^GSPTSE  on yahoo finance, ignore holidays, take the last good day)
+(a) produce 5 time serires. 
+    (i) m_t Monday to Monday log return 
+    (ii) t_t, 
+    (iii) w_t
+    (iv) r_t
+    (v) \rho_t
+(b) calculate sigma, mu for these series do they seem weakly stationary
+(c) calculate (lag1 to lag 13) l-1, l-2, l-3, ... , l-13
+(e) do you observe autocorrelation
+(d) calculate the Q^*(i), for i=1,2,...,13 statistics. 
+
+
+2. the daily log returns of a security follow: 
+       r_t = 0.01 + 0.2 r_{t-2} + a_t,  where {a_t} is a (0, 0.02) Gaussian WN. 
+(i) mean of r_t ? 
+(ii) variance of r_t
+(iii) lag-1, ladg-2 autocorrel. 
+
+
+3. (a) find a series that has clean autocorrelations.
+   (b) explain why. 
+
